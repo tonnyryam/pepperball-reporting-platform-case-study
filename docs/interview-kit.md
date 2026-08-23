@@ -32,6 +32,9 @@ zero additional writes.
 
 - **Hardest bug:** package bytes changed because snapshot-only metadata changed,
   even though governed business material did not.
+- **Most instructive recovery:** a durable Shift Draft retry included elapsed
+  source age in its identity; switching to stable source versions let the
+  native loop recover the missing canonical output without forcing it.
 - **Most important invariant:** an ambiguous accepted response never creates
   permission for another write.
 - **Why one writer:** independently correct schedules can still collide at the

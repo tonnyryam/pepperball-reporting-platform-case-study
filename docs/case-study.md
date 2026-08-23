@@ -108,6 +108,13 @@ The correction excluded those exact control fields from material identity while
 preserving real source changes. An equivalent natural cycle then produced no
 update, while a later genuine source change advanced the canonical item once.
 
+A later Shift Draft incident exposed the same principle in durable scheduling:
+elapsed source age was included in a retry manifest, so unchanged evidence
+appeared different and the due slot refused. The correction retained stable
+source-version timestamps, preserved fail-closed handling for real post-cutoff
+changes, and let the existing recovery loop create the missing canonical
+workbook naturally. No alternate scheduler or forced output was introduced.
+
 ## What this does not claim
 
 This case study does not disclose production data or topology and does not claim

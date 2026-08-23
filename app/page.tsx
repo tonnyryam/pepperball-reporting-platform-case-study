@@ -121,7 +121,7 @@ const timeline = [
   ['Jul 01', 'Authoritative source event'], ['Jul 23', 'Integrated platform baseline'],
   ['Aug 01', 'Recurring orchestration'], ['Aug 09', 'GET-only write recovery'],
   ['Aug 14', 'Closed-loop self-healing'], ['Aug 17', 'Raw workbook correctness'],
-  ['Aug 20', 'Expected-output health'], ['Aug 22', 'Natural no-op closure'],
+  ['Aug 20', 'Expected-output health'], ['Aug 22', 'No-op and Draft recovery'],
 ];
 
 export default function Home() {
@@ -246,7 +246,7 @@ export default function Home() {
 
       <section className="timeline-section">
         <div className="section">
-          <div className="section-heading"><div><p className="eyebrow">Workday chronology</p><h2>From source foundation to natural no-op evidence.</h2></div><p>The public log contains 29 dated, sanitized entries. Day-level evidence begins in late June; the May-June engagement foundation is not invented into unsupported dates.</p></div>
+          <div className="section-heading"><div><p className="eyebrow">Workday chronology</p><h2>From source foundation to natural recovery evidence.</h2></div><p>The public log contains 29 dated, sanitized entries, now including a durable Shift Draft catch-up that reused the native recovery loop. Day-level evidence begins in late June; the May-June engagement foundation is not invented into unsupported dates.</p></div>
           <div className="timeline-grid">{timeline.map(([date, event]) => <div key={date}><span>{date}</span><strong>{event}</strong></div>)}</div>
         </div>
       </section>

@@ -61,6 +61,9 @@ identities, schema internals, ACLs, exact schedules, or production code.
 - Immutable successor releases with output-suppressed validation, one active
   writer, and exact rollback.
 - Natural equivalent-cycle verification as an immediate zero-write no-op.
+- Durable Shift Draft catch-up after volatile retry metadata was replaced by
+  stable source-version identity; the native recovery loop created the missing
+  canonical workbook without a forced publication.
 
 These are bounded engineering claims supported by tests, raw-package checks,
 output-suppressed shadows, exact readback, rollback exercises, and natural

@@ -176,13 +176,16 @@ Separated candidate identity from normalized remote packages, repaired omitted
 late-source discovery, quarantined uncertifiable legacy state, prevented
 equivalent Draft rewrites, and made fan-out fair across old and current work.
 
-### 2026-08-22 - Natural variance and technical closure
+### 2026-08-22 - Natural no-op and Shift Draft recovery
 
 Stabilized material lineage, completed bounded late-source recovery, deployed
 read-only report health, and made accepted-publication evidence durable. A Daily
 successor was conservatively restored while a material change was classified,
 then safely reactivated when that change was proven governed. The next fully
-equivalent natural cycle verified an exact no-op and zero additional PUTs.
+equivalent natural cycle verified an exact no-op and zero additional PUTs. A
+later missing Shift Draft was traced to elapsed-age metadata in durable retry
+identity; stable source versions let the native recovery loop create the
+canonical workbook naturally without a forced output.
 
 ## Evidence and claim boundaries
 
