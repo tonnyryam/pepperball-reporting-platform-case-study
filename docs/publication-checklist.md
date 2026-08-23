@@ -33,7 +33,7 @@
 ## Publication
 
 - [x] Reviewer approved the exact content commit recorded in the release manifest.
-- [ ] GitHub secret scanning and push protection are enabled.
+- [x] GitHub Secret Protection and push protection were verified enabled after publication.
 - [x] Repository and approved commit were inspected while signed out after publication.
 - [ ] Downloaded source archive is rescanned.
 - [ ] Portfolio, resume, and professional profile link to the same approved URL.
