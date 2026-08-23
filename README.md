@@ -91,7 +91,7 @@ npm run dev
 ```
 
 Run `npm run check` before sharing changes. Downloadable portfolio artifacts are
-stored in `public/`.
+stored in `public/`, including a social-preview card for professional links.
 
 ## Share safely
 

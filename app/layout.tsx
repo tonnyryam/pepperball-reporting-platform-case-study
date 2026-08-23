@@ -8,6 +8,18 @@ const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin']
 export const metadata: Metadata = {
   title: 'PepperBall Reporting Reliability | Thomas Ryan',
   description: 'A sanitized engineering case study in deterministic reporting, bounded self-healing, exact readback, and rollback-safe delivery.',
+  openGraph: {
+    title: 'Reporting Reliability | Thomas Ryan',
+    description: 'One writer. Exact readback. Automatic recovery.',
+    type: 'website',
+    images: [{ url: '/social-preview.png', width: 1743, height: 897, alt: 'Reporting Reliability by Thomas Ryan' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Reporting Reliability | Thomas Ryan',
+    description: 'One writer. Exact readback. Automatic recovery.',
+    images: ['/social-preview.png'],
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
