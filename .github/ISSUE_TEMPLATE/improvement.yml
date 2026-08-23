@@ -1,0 +1,19 @@
+name: Public demo improvement
+description: Suggest a synthetic, public-safe improvement.
+title: "[Improvement] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What would make the teaching artifact clearer or more reproducible?
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety confirmation
+      options:
+        - label: This suggestion contains no production data, credentials, private identifiers, or customer content.
+          required: true

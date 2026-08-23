@@ -1,0 +1,24 @@
+{
+  "schema": "portfolio-public-release-v1",
+  "artifact": "PepperBall reporting reliability case study",
+  "author": "Thomas Ryan",
+  "status": "release_candidate_owner_fields_pending",
+  "user_authorized_build": true,
+  "company_written_release_confirmation": "pending",
+  "license_selection": "all_rights_reserved_pending_final_selection",
+  "public_repository_url": "pending",
+  "portfolio_url": "pending",
+  "contact_url": "pending",
+  "production_source_included": false,
+  "production_history_included": false,
+  "production_data_included": false,
+  "synthetic_demo": true,
+  "required_gates": [
+    "python_unit_tests",
+    "public_safety_scan",
+    "site_lint_and_build",
+    "workbook_formula_and_visual_review",
+    "pdf_visual_review",
+    "human_public_release_review"
+  ]
+}

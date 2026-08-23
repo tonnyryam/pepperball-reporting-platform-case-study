@@ -1,0 +1,13 @@
+{
+  "period": "SYNTHETIC-PERIOD-01",
+  "first_source": {
+    "good_units": 1200,
+    "downtime_minutes": 35,
+    "quality_status": "qualified"
+  },
+  "material_change": {
+    "good_units": 1240,
+    "downtime_minutes": 35,
+    "quality_status": "qualified"
+  }
+}
