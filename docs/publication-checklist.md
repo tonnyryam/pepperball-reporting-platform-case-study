@@ -2,28 +2,32 @@
 
 ## Authority and ownership
 
-- [ ] Written company confirmation covers the PepperBall name, generalized case
-      study, synthetic demo, and selected screenshots.
-- [ ] Thomas Ryan confirms the final repository owner and contact link.
-- [ ] Final license is selected for the independently written demo.
+- [x] Thomas Ryan authorized using the PepperBall name, his role, generalized
+      architecture, sanitized measurements, and synthetic examples on 2026-08-22.
+- [x] Personal GitHub owner, LinkedIn, public email, role, and engagement dates
+      are recorded in the release manifest.
+- [x] All Rights Reserved is selected.
+- [ ] Thomas Ryan approves the exact final review commit for public release.
 
 ## Content boundary
 
-- [ ] Repository was created from a blank history, not filtered from production.
-- [ ] No production code, reports, templates, screenshots, or exports are present.
-- [ ] No credentials, emails, private URLs, paths, IDs, hashes, account names,
-      employee names, or infrastructure identities are present.
-- [ ] All sample names, periods, and values are synthetic.
-- [ ] Claims match `docs/claim-boundaries.md`.
+- [x] Repository was created from a blank history, not filtered from production.
+- [x] No production code, reports, templates, screenshots, or exports are present.
+- [x] No credentials, private URLs, paths, IDs, hashes, account names, employee
+      names, or infrastructure identities are present. One exact personal public
+      contact email is explicitly allowlisted.
+- [x] All sample names, periods, and values are synthetic.
+- [x] Claims match `docs/claim-boundaries.md`.
 
 ## Verification
 
-- [ ] Python unit tests pass.
-- [ ] Public safety scan passes the complete working tree and Git history.
-- [ ] Site lint and production build pass.
-- [ ] Both workbook sheets were rendered and visually reviewed.
-- [ ] PDF was rendered and visually reviewed.
-- [ ] Links and downloadable assets work.
+- [x] Python unit tests pass (`9 / 9`).
+- [x] Public safety scan passes the complete working tree and Git history.
+- [x] Site lint and production build pass.
+- [x] Both workbook sheets were rendered and visually reviewed.
+- [x] One-page and 10-page PDFs were rendered and visually reviewed.
+- [x] Eight-slide presentation passed overflow testing and slide-by-slide review.
+- [x] Links and downloadable assets work in the locally rendered review build.
 
 ## Publication
 

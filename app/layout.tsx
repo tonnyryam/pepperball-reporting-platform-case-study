@@ -6,18 +6,18 @@ const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] });
 const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'PepperBall Reporting Reliability | Thomas Ryan',
-  description: 'A sanitized engineering case study in deterministic reporting, bounded self-healing, exact readback, and rollback-safe delivery.',
+  title: 'PepperBall Reporting Platform | Thomas Ryan',
+  description: 'A sanitized end-to-end case study of governed data intake, deterministic operational reporting, bounded self-healing, exact readback, and rollback-safe delivery.',
   openGraph: {
-    title: 'Reporting Reliability | Thomas Ryan',
-    description: 'One writer. Exact readback. Automatic recovery.',
+    title: 'PepperBall Reporting Platform | Thomas Ryan',
+    description: 'From changing documents to deterministic reports, bounded recovery, and one-writer delivery.',
     type: 'website',
     images: [{ url: '/social-preview.png', width: 1743, height: 897, alt: 'Reporting Reliability by Thomas Ryan' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Reporting Reliability | Thomas Ryan',
-    description: 'One writer. Exact readback. Automatic recovery.',
+    title: 'PepperBall Reporting Platform | Thomas Ryan',
+    description: 'From changing documents to deterministic reports, bounded recovery, and one-writer delivery.',
     images: ['/social-preview.png'],
   },
 };

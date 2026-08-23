@@ -2,8 +2,9 @@
 
 ## Repository description
 
-Sanitized case study and synthetic demo of deterministic manufacturing
-reporting, bounded self-healing, accepted-write readback recovery, and one-writer
+Sanitized end-to-end case study and synthetic demo of a governed manufacturing
+reporting platform: document intake, medallion facts, deterministic workbooks,
+bounded self-healing, exact readback, operational interfaces, and one-writer
 rollback-safe releases.
 
 ## Recruiter summary
@@ -13,6 +14,13 @@ platform with medallion data processing, deterministic spreadsheet products,
 durable reconciliation, observability, and zero-downtime one-writer release
 controls. Owned production diagnosis, regression strategy, rollback decisions,
 and evidence-driven handoff.
+
+## Contact line
+
+Thomas Ryan - Forward Deployed Engineer Intern, May 2026-August 2026 -
+[GitHub](https://github.com/tonnyryam) -
+[LinkedIn](https://www.linkedin.com/in/thomas-f-ryan/) -
+[Email](mailto:tommyryan.sf415@gmail.com)
 
 ## LinkedIn draft
 

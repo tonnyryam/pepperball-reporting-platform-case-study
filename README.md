@@ -1,70 +1,71 @@
-# PepperBall reporting reliability case study
+# PepperBall reporting platform case study
 
-An independent, sanitized portfolio case study by Thomas Ryan about making a
-document-driven manufacturing reporting workflow deterministic, observable,
-self-healing, and safe to retry.
+A sanitized, end-to-end portfolio case study by Thomas Ryan, Forward Deployed
+Engineer Intern at PepperBall from May 2026 through August 2026.
 
-This repository is a clean-room teaching artifact. It contains synthetic data,
-generalized architecture, and independently written demonstration code. It does
-not contain the production source tree, Git history, credentials, customer or
-employee data, private identifiers, operational exports, report templates, or
-screenshots from live systems.
+The project evolved a document-driven manufacturing reporting workflow into a
+governed platform spanning source discovery, medallion data processing,
+deterministic spreadsheet products, canonical publication, expected-output
+accounting, bounded self-healing, read-only operational interfaces,
+observability, secure release controls, and evidence-driven handoff.
 
-## Thirty-second walkthrough
+This repository is an independently written teaching artifact. It contains
+synthetic data and generalized architecture. It excludes production source and
+history, customer or employee data, credentials, private identifiers, live
+templates, system coordinates, and operational exports.
 
-A scheduled reporting pipeline had to absorb late inputs, changing source
-documents, lost HTTP responses, and long-lived repair obligations without
-creating duplicate files or overwriting protected work. The reliability layer
-uses durable expected-output accounting, governed material identity,
-deterministic rendering, conditional same-item publication, GET-only settlement
-after ambiguous writes, bounded repair, and exactly-one-writer releases with
-exact rollback.
+## Choose your depth
 
-## My role
+- **30 seconds:** open the website and read the hero, system map, and outcomes.
+- **5 minutes:** use the interactive recovery lab and inspect the synthetic
+  workbook.
+- **15 minutes:** read the long-form PDF or presentation in `public/`.
+- **Technical review:** start with [end-to-end system](docs/end-to-end-system.md),
+  [capability matrix](docs/system-capability-matrix.md), and
+  [validation methodology](docs/validation-methodology.md).
+- **Project history:** read the
+  [sanitized workday chronology](docs/project-chronology.md).
 
-Thomas Ryan set the product goals, business definitions, safety invariants,
-release priorities, acceptance criteria, and owner-only decisions. He materially
-owned production diagnosis, implementation direction, regression strategy,
-release/rollback decisions, and evidence-driven handoff. Codex-assisted
-execution accelerated analysis, implementation, testing, evidence collection,
-and documentation under that direction.
-
-## System shape
+## End-to-end system shape
 
 ```mermaid
 flowchart LR
-  A[Source evidence] --> B[Normalized facts]
-  B --> C[Expected-output ledger]
-  C --> D[Deterministic report]
-  D --> E{Materially new?}
-  E -- No --> F[Exact no-op]
-  E -- Yes --> G[Conditional same-item write]
-  G --> H[GET readback]
-  H --> I[Certified output]
-  H -- Ambiguous --> J[Bounded recovery]
-  J --> H
+  A[Document discovery and intake] --> B[Immutable source retention]
+  B --> C[Normalized and governed facts]
+  C --> D[Expected-output accounting]
+  D --> E[Family schedulers and deterministic workbooks]
+  E --> F[Conditional same-item publication]
+  F --> G[Exact GET readback]
+  G --> H[Operations API, portal, and report doctor]
+  G --> I[Bounded repair and backfill]
+  I --> D
+  J[Immutable one-writer releases] -. governs .-> E
+  K[Security, lineage, and evidence gates] -. govern .-> A
+  K -. govern .-> F
 ```
 
-The architecture and failure-state detail are in
-[docs/architecture.md](docs/architecture.md) and
-[docs/reliability-state-machine.md](docs/reliability-state-machine.md).
+The public representation stays at the capability and control-flow level. It
+shows how the whole platform works without publishing tenant details, resource
+identities, schema internals, ACLs, exact schedules, or production code.
 
 ## Verified engineering outcomes
 
 - Deterministic two-sheet report products with client-independent stored values
-  and explicit missing-versus-zero treatment.
-- Canonical same-item publication: late qualified evidence advances the intended
-  output rather than creating an alternate file.
+  and explicit missing-versus-zero semantics.
+- Same-item publication after qualified late evidence rather than alternate
+  output creation.
 - Accepted-write recovery through exact GET readback without a second PUT.
-- Durable, fair, bounded repair that preserves terminal ownership and security
-  holds.
-- Immutable successor releases, serialized handoffs, one active writer, and
-  exact rollback.
-- Immediate equivalent replay no-op after certified settlement.
+- Durable expected-output accounting capable of detecting a missing identity,
+  not only a failed existing publication.
+- Fair, bounded recovery that preserves security, ownership, and terminal holds.
+- Immutable successor releases with output-suppressed validation, one active
+  writer, and exact rollback.
+- Natural equivalent-cycle verification as an immediate zero-write no-op.
 
-These are engineering outcomes supported by tests, output-suppressed shadows,
-exact readback, and natural operation. They are not blanket accuracy, adoption,
-financial-impact, or causal-impact claims.
+These are bounded engineering claims supported by tests, raw-package checks,
+output-suppressed shadows, exact readback, rollback exercises, and natural
+scheduled operation. They are not blanket accuracy, adoption, or financial
+impact claims.
 
 ## Run the synthetic demo
 
@@ -77,33 +78,30 @@ python -m unittest discover -s tests -v
 python scripts/public_safety_scan.py
 ```
 
-The demo walks through a missing source, late arrival, equivalent replay, lost
-write response, GET-only settlement, one-writer lease exclusion, and exact
-rollback. All names and values are synthetic.
+The demo covers a missing source, late arrival, equivalent replay, lost write
+response, GET-only settlement, one-writer exclusion, and exact rollback.
 
-## Portfolio site
-
-The one-page site lives in `app/` and can be previewed locally:
+## Preview the portfolio site
 
 ```bash
 npm install
 npm run dev
 ```
 
-Run `npm run check` before sharing changes. Downloadable portfolio artifacts are
-stored in `public/`, including a social-preview card for professional links.
+Run `npm run check` before sharing. The site is static apart from client-side
+audience and recovery selectors: it needs no database, API, cloud account, or
+production connection.
 
-## Share safely
+## Publication state
 
-Read [docs/claim-boundaries.md](docs/claim-boundaries.md) and
-[docs/publication-checklist.md](docs/publication-checklist.md) before release.
-The included safety scanner supplements GitHub secret scanning with patterns for
-private paths, infrastructure identities, account data, and operational proof
-material.
+This is a complete review candidate under **All Rights Reserved**. Thomas Ryan
+authorized the sanitized content boundaries on 2026-08-22; final public release
+approval remains pending after his review. See
+[PUBLIC_RELEASE_MANIFEST.json](PUBLIC_RELEASE_MANIFEST.json) and
+[publication checklist](docs/publication-checklist.md).
 
-## Status
+## Contact
 
-This is a public-release candidate. The code, data, diagrams, workbook, and PDF
-are synthetic or generalized. Written company approval, preferred contact links,
-final license choice, and final public repository URL remain owner-supplied
-release fields.
+[GitHub](https://github.com/tonnyryam) ·
+[LinkedIn](https://www.linkedin.com/in/thomas-f-ryan/) ·
+[Email](mailto:tommyryan.sf415@gmail.com)

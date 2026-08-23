@@ -68,6 +68,10 @@ PATTERNS = [
     ("cloud subscription path", re.compile(r"/subscriptions/[0-9a-f-]+", re.I)),
 ]
 
+APPROVED_PUBLIC_TEXT = (
+    "tommyryan.sf415@gmail.com",
+)
+
 
 def _excluded(path: Path) -> bool:
     try:
@@ -80,6 +84,10 @@ def _excluded(path: Path) -> bool:
 def _scan_text(label: str, text: str) -> list[str]:
     # The Sites scaffold uses this documented all-zero local database placeholder.
     text = text.replace("00000000-0000-4000-8000-000000000000", "")
+    # Public contact data is deliberately allowlisted one value at a time. All
+    # other email addresses still fail closed.
+    for approved in APPROVED_PUBLIC_TEXT:
+        text = text.replace(approved, "")
     findings: list[str] = []
     for description, pattern in PATTERNS:
         match = pattern.search(text)

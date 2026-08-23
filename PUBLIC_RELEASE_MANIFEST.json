@@ -1,14 +1,24 @@
 {
   "schema": "portfolio-public-release-v1",
-  "artifact": "PepperBall reporting reliability case study",
+  "artifact": "PepperBall reporting platform case study",
   "author": "Thomas Ryan",
-  "status": "release_candidate_owner_fields_pending",
+  "role": "Forward Deployed Engineer Intern",
+  "engagement_dates": "May 2026-August 2026",
+  "status": "complete_review_candidate_public_release_approval_pending",
   "user_authorized_build": true,
-  "company_written_release_confirmation": "pending",
-  "license_selection": "all_rights_reserved_pending_final_selection",
-  "public_repository_url": "pending",
-  "portfolio_url": "pending",
-  "contact_url": "pending",
+  "content_authorization": {
+    "received": true,
+    "date": "2026-08-22",
+    "scope": "PepperBall name, role, generalized architecture, sanitized measurements, and synthetic examples"
+  },
+  "public_release_approval": "pending_owner_review",
+  "license_selection": "all_rights_reserved",
+  "github_username": "tonnyryam",
+  "recommended_repository_name": "pepperball-reporting-platform-case-study",
+  "intended_repository_url": "https://github.com/tonnyryam/pepperball-reporting-platform-case-study",
+  "linkedin_url": "https://www.linkedin.com/in/thomas-f-ryan/",
+  "public_email": "tommyryan.sf415@gmail.com",
+  "portfolio_url": "this_site_after_owner_approval",
   "production_source_included": false,
   "production_history_included": false,
   "production_data_included": false,
@@ -18,7 +28,8 @@
     "public_safety_scan",
     "site_lint_and_build",
     "workbook_formula_and_visual_review",
-    "pdf_visual_review",
+    "pdf_text_and_visual_review",
+    "presentation_overflow_and_visual_review",
     "human_public_release_review"
   ]
 }

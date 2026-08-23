@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 message: "If this case study informs your work, cite it using this metadata."
-title: "PepperBall Reporting Reliability Case Study"
+title: "PepperBall Reporting Platform Case Study"
 type: software
 authors:
   - family-names: Ryan
     given-names: Thomas
-version: 0.1.0
+version: 1.0.0-rc1
 date-released: 2026-08-22
-abstract: "A sanitized teaching artifact for deterministic reporting, bounded self-healing, accepted-write readback recovery, and one-writer releases."
+abstract: "A sanitized end-to-end case study of a governed manufacturing reporting platform, including document ingestion, deterministic workbooks, bounded self-healing, accepted-write readback recovery, operational interfaces, and one-writer releases."
 license: proprietary

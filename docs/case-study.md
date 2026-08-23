@@ -1,4 +1,7 @@
-# Making scheduled reports safe to recover
+# Building an end-to-end reporting platform that is safe to recover
+
+**Thomas Ryan - Forward Deployed Engineer Intern, PepperBall**
+**May 2026-August 2026**
 
 ## Context
 
@@ -7,6 +10,10 @@ spreadsheet products, a document portal, and scheduled cloud workers. A report
 could be missing or stale even when each individual component appeared healthy.
 Late source evidence, client-dependent spreadsheet calculation, lost HTTP
 responses, and long-lived repair obligations made naive retry unsafe.
+
+The system also needed governed lineage, multiple report families, operational
+diagnostics, user-facing read surfaces, access controls, and a release process
+that did not trade uptime for correctness.
 
 ## Objective
 
@@ -24,7 +31,19 @@ The controlling invariants were:
 - bounded, fair repair with explicit terminal holds; and
 - immutable releases with exact rollback.
 
+More broadly, the objective was to evolve the workflow into a maintainable
+platform from source discovery through governed facts, deterministic products,
+operational experiences, recovery, secure release, and owner handoff.
+
 ## Approach
+
+### Governed source-to-user platform
+
+The platform joined version-aware document intake, immutable source retention,
+normalized and governed facts, four report families, a read-only API and portal,
+report-health diagnostics, and evidence-bound release operations. Original
+documents remained authoritative and user-facing surfaces did not create a
+second writer.
 
 ### Durable source-to-output accounting
 
@@ -70,6 +89,10 @@ exact prior release, preserving one active writer.
 - Equivalent replay produced an immediate no-op.
 - Repair state distinguished nonterminal work from protected terminal holds.
 - Serialized successor and rollback paths preserved one writer.
+- A read-only health and interaction layer made output state explainable without
+  widening publication authority.
+- Source, report, recovery, security, release, and handoff controls were
+  documented as one operable system.
 
 The evidence included focused and proportional tests, output-suppressed shadows,
 exact remote readback, rollback exercises, and natural scheduled operation.
@@ -90,6 +113,10 @@ update, while a later genuine source change advanced the canonical item once.
 This case study does not disclose production data or topology and does not claim
 blanket report accuracy, user adoption, realized savings, or causal business
 impact. It describes verified reliability controls and their observed behavior.
+
+The public architecture is intentionally generalized. Exact resource identities,
+schemas, schedules, ACLs, credentials, private evidence, and production code
+remain outside this package.
 
 ## Lessons
 

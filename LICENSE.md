@@ -1,11 +1,9 @@
-# License pending final owner selection
+# All Rights Reserved
 
 Copyright 2026 Thomas Ryan. All rights reserved.
 
-This public-release candidate is available for portfolio review only. No license
-to copy, modify, distribute, sublicense, or use the source is granted until the
-repository owner selects and publishes an explicit license after confirming the
-ownership and company-release boundary.
+No permission is granted to copy, modify, distribute, sublicense, sell, or use
+this repository or its contents except as required to view the material through
+an authorized public or private portfolio presentation.
 
-The synthetic demonstration can be relicensed separately once that decision is
-recorded in `PUBLIC_RELEASE_MANIFEST.json`.
+Third-party names and marks remain the property of their respective owners.

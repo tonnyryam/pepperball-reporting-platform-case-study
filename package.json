@@ -1,6 +1,6 @@
 {
-  "name": "pepperball-reporting-reliability-case-study",
-  "version": "0.1.0",
+  "name": "pepperball-reporting-platform-case-study",
+  "version": "1.0.0-rc1",
   "private": true,
   "engines": {
     "node": ">=22.13.0"
