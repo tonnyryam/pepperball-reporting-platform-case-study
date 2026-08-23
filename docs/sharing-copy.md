@@ -18,7 +18,7 @@ and evidence-driven handoff.
 ## Contact line
 
 Thomas Ryan - Forward Deployed Engineer Intern, May 2026-August 2026 -
-[GitHub](https://github.com/tonnyryam) -
+[GitHub](https://github.com/tonnyryam/pepperball-reporting-platform-case-study) -
 [LinkedIn](https://www.linkedin.com/in/thomas-f-ryan/) -
 [Email](mailto:tommyryan.sf415@gmail.com)
 
@@ -36,6 +36,9 @@ business-level differences, so idempotency needs an explicit governed material
 identity, not only a file hash.
 
 The linked case study and demo use synthetic data and generalized architecture.
+
+[Read the case study](https://thomas-ryan-reporting-reliability.tonnyryam.chatgpt.site)
+or [inspect the public repository](https://github.com/tonnyryam/pepperball-reporting-platform-case-study).
 
 ## Resume bullet
 

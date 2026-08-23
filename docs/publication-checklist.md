@@ -7,7 +7,8 @@
 - [x] Personal GitHub owner, LinkedIn, public email, role, and engagement dates
       are recorded in the release manifest.
 - [x] All Rights Reserved is selected.
-- [ ] Thomas Ryan approves the exact final review commit for public release.
+- [x] Thomas Ryan approved content commit `0b43336` for public release on
+      2026-08-22.
 
 ## Content boundary
 
@@ -31,8 +32,8 @@
 
 ## Publication
 
-- [ ] Reviewer approves the exact commit recorded in the release manifest.
+- [x] Reviewer approved the exact content commit recorded in the release manifest.
 - [ ] GitHub secret scanning and push protection are enabled.
-- [ ] Repository is inspected while signed out after publication.
+- [x] Repository and approved commit were inspected while signed out after publication.
 - [ ] Downloaded source archive is rescanned.
 - [ ] Portfolio, resume, and professional profile link to the same approved URL.

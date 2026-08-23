@@ -1,9 +1,9 @@
 # Lightweight public-release approval template
 
-Thomas Ryan already authorized the sanitized content scope on 2026-08-22. Use
-this final-release line after reviewing the exact candidate commit:
+Thomas Ryan authorized the sanitized content scope and approved the exact
+content commit on 2026-08-22. The recorded approval is:
 
-> I approve commit `[PUBLIC COMMIT]` for publication at
+> I approve commit `0b43336` for publication at
 > `https://github.com/tonnyryam/pepperball-reporting-platform-case-study` and
 > approve the matching portfolio-site version for public access.
 

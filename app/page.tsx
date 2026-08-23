@@ -196,7 +196,7 @@ export default function Home() {
             </article>
           ))}
         </div>
-        <a className="text-link dark-link" href="https://github.com/tonnyryam" rel="noreferrer">Public repository will appear on Thomas&apos;s GitHub after review</a>
+        <a className="text-link dark-link" href="https://github.com/tonnyryam/pepperball-reporting-platform-case-study" rel="noreferrer">Explore the public repository and technical documentation</a>
       </section>
 
       <section className="capability-section" id="capabilities">

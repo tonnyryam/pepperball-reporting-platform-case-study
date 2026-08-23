@@ -94,14 +94,16 @@ production connection.
 
 ## Publication state
 
-This is a complete review candidate under **All Rights Reserved**. Thomas Ryan
-authorized the sanitized content boundaries on 2026-08-22; final public release
-approval remains pending after his review. See
+This package is published under **All Rights Reserved**. Thomas Ryan authorized
+the sanitized content boundaries and approved content commit `0b43336` for
+public release on 2026-08-22. Open the
+[portfolio website](https://thomas-ryan-reporting-reliability.tonnyryam.chatgpt.site).
+See
 [PUBLIC_RELEASE_MANIFEST.json](PUBLIC_RELEASE_MANIFEST.json) and
 [publication checklist](docs/publication-checklist.md).
 
 ## Contact
 
-[GitHub](https://github.com/tonnyryam) ·
+[GitHub repository](https://github.com/tonnyryam/pepperball-reporting-platform-case-study) ·
 [LinkedIn](https://www.linkedin.com/in/thomas-f-ryan/) ·
 [Email](mailto:tommyryan.sf415@gmail.com)
