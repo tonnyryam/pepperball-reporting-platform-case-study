@@ -1,5 +1,7 @@
 # Documentation index
 
+Start with [operational use and business impact](operational-use-and-impact.md) for the operations-first story, decision-support workflow, impact boundaries, and technical evidence.
+
 ## Understand the system
 
 - [Case study](case-study.md): problem, ownership, approach, verified outcomes,

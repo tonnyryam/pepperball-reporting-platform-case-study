@@ -7,17 +7,17 @@ const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin']
 
 export const metadata: Metadata = {
   title: 'PepperBall Reporting Platform | Thomas Ryan',
-  description: 'A sanitized end-to-end case study of governed data intake, deterministic operational reporting, bounded self-healing, exact readback, and rollback-safe delivery.',
+  description: 'How supervisors and managers use dependable shift, daily, and weekly manufacturing reports - and the architecture and reliability engineering behind them.',
   openGraph: {
     title: 'PepperBall Reporting Platform | Thomas Ryan',
-    description: 'From changing documents to deterministic reports, bounded recovery, and one-writer delivery.',
+    description: 'From operational inputs to prepared decision-support reports, with traceable evidence and rollback-safe delivery.',
     type: 'website',
     images: [{ url: '/social-preview.png', width: 1743, height: 897, alt: 'Reporting Reliability by Thomas Ryan' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'PepperBall Reporting Platform | Thomas Ryan',
-    description: 'From changing documents to deterministic reports, bounded recovery, and one-writer delivery.',
+    description: 'From operational inputs to prepared decision-support reports, with traceable evidence and rollback-safe delivery.',
     images: ['/social-preview.png'],
   },
 };
