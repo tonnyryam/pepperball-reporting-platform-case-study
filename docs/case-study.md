@@ -1,5 +1,21 @@
 # Building an end-to-end reporting platform that is safe to recover
 
+## Operational intelligence interfaces
+
+- **Chatbot:** bounded, source-grounded report retrieval with structured responses, validated citations, and deterministic fallback. Estimated retrieval improvement is about 90% for the documented 20–30 minute to 1–2 minute scenario.
+- **Report doctor:** read-only expected-output, exception, health, and settlement diagnostics. It observes but cannot repair or publish.
+- **Governed oracle:** contract-, lineage-, and state-bound interpretation and validation. Missing or ambiguous evidence fails closed.
+
+These interfaces sit over the reporting system; they do not replace the input → preparation → validated output → human review path.
+
+## Impact methodology
+
+- Labor planning model: 20 supervisor + 10 manager hours/week, about $52K annual labor value.
+- Retrieval estimate: 20–30 minute representative search reduced to 1–2 minutes, about 90%.
+- Downtime upper-bound model: 5-minute response improvement × 1,000 widgets/hour/machine × 52.5 events/week × 52 weeks = up to 227,500 widgets; at $0.90/widget, approximately $205K contribution-margin opportunity.
+
+These are planning scenarios, not booked savings, realized production, guaranteed margin, or autonomous outcomes.
+
 **Thomas Ryan - Forward Deployed Engineer Intern, PepperBall**
 **May 2026-August 2026**
 

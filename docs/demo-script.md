@@ -1,5 +1,7 @@
 # Two-minute demo script
 
+Follow the seven-section site order: users; reporting outputs; operational workflow; chatbot/report doctor/governed oracle; value and assumptions; technical foundation; evidence. Demonstrate one source-grounded retrieval with citation/fallback, one read-only doctor diagnostic, and one oracle refusal before opening the workbook or repository. Do not repeat artifact links or imply autonomous decisions.
+
 ## Opening - 15 seconds
 
 This is a synthetic model of the reliability controls I built around a scheduled

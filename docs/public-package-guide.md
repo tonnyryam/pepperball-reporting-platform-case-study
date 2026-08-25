@@ -8,7 +8,7 @@
 | Hiring manager | Long-form PDF | Workday chronology and verified outcomes |
 | Engineering leader | End-to-end system | Security/governance and technical decisions |
 | Software/data engineer | Architecture and capability matrix | Reliability state machine, validation methodology, synthetic code/tests |
-| Operations or product | Representative journeys | Recovery lab, workbook, report-health concepts |
+| Operations or product | Output-use and workflow sections | Synthetic workbook and report-health concepts |
 
 ## Public-facing artifacts
 
@@ -16,7 +16,7 @@
 - One-page executive PDF.
 - Long-form end-to-end technical case study PDF.
 - Presentation deck with speaker notes and source traceability.
-- Synthetic two-sheet workbook plus rendered summary and recovery-trace images.
+- Synthetic workbook with output, reliability, and bounded-intelligence evidence plus rendered previews.
 - Synthetic reliability engine, scenarios, and nine regression tests.
 - Sanitized 29-entry workday chronology.
 - Technical documentation for architecture, capabilities, state machines,
@@ -28,7 +28,7 @@
 ## What the site needs
 
 The site is a statically built Next.js presentation. Its only runtime behavior
-is local React state for audience and recovery-scenario selectors. It requires
+is standard navigation and expandable impact methodology. It requires
 no production API, database, document portal, cloud account, authentication, or
 customer data. A static host is sufficient after final owner approval.
 
