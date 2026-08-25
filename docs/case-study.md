@@ -10,9 +10,10 @@ These interfaces sit over the reporting system; they do not replace the input �
 
 ## Impact methodology
 
+- Reviewed production-count schema conformance: across approximately six months, about one in four legacy reports did not conform; every reviewed system-generated output did. This is an approximately 75% to 100% change, or 25 percentage points, within the reviewed sample—not a blanket accuracy claim.
 - Labor planning model: 20 supervisor + 10 manager hours/week, about $52K annual labor value.
 - Retrieval estimate: 20–30 minute representative search reduced to 1–2 minutes, about 90%.
-- Downtime upper-bound model: 5-minute response improvement × 1,000 widgets/hour/machine × 52.5 events/week × 52 weeks = up to 227,500 widgets; at $0.90/widget, approximately $205K contribution-margin opportunity.
+- Downtime upper-bound model: 5-minute response improvement × 1,000 production units/hour/machine × 52.5 events/week × 52 weeks = up to 227,500 production units; at $0.90/unit, approximately $205K contribution-margin opportunity.
 
 These are planning scenarios, not booked savings, realized production, guaranteed margin, or autonomous outcomes.
 
