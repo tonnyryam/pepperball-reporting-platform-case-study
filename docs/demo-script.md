@@ -1,6 +1,6 @@
 # Two-minute demo script
 
-Use the visible page for the one-minute operational story: outputs, workflow, intelligence interfaces, and technical foundation. Then open only the optional path that matches the audience: report inspection, engineering depth, impact assumptions, or implementation evidence. Do not tour every dropdown or repeat artifact links.
+Use the visible page for the one-minute story: reports, human workflow, Reporting Assistant, and system controls. Then open only the optional path that matches the audience: sample report, architecture, impact calculations, or validation evidence. Do not tour every dropdown or repeat artifact links.
 
 ## Opening - 15 seconds
 

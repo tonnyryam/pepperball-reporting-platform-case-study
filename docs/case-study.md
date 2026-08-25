@@ -1,8 +1,8 @@
 # Building an end-to-end reporting platform that is safe to recover
 
-## Operational intelligence interfaces
+## Reporting Assistant
 
-- **Chatbot:** bounded, source-grounded report retrieval with structured responses, validated citations, and deterministic fallback. Estimated retrieval improvement is about 90% for the documented 20–30 minute to 1–2 minute scenario.
+- **Reporting Assistant:** finds cited information, diagnoses report problems, and validates evidence through bounded internal retrieval, report-doctor, and governed-oracle subsystems. Estimated retrieval improvement is about 90% for the documented 20–30 minute to 1–2 minute scenario.
 - **Report doctor:** read-only expected-output, exception, health, and settlement diagnostics. It observes but cannot repair or publish.
 - **Governed oracle:** contract-, lineage-, and state-bound interpretation and validation. Missing or ambiguous evidence fails closed.
 
