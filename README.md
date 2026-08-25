@@ -17,9 +17,9 @@ templates, system coordinates, and operational exports.
 ## Reading path
 
 - **One minute:** use the website for outputs, workflow, value, and technical foundation.
-- **Presentation:** use the short deck for a live conversation.
-- **Technical review:** open the long-form case study and synthetic workbook.
-- **Technical review:** start with [end-to-end system](docs/end-to-end-system.md),
+- **Live conversation:** use the short deck with speaker notes.
+- **Evidence inspection:** use the synthetic workbook's lineage, exception, and formula sheets.
+- **Engineering review:** use the long-form reference, then continue with [end-to-end system](docs/end-to-end-system.md),
   [capability matrix](docs/system-capability-matrix.md), and
   [validation methodology](docs/validation-methodology.md).
 - **Project history:** read the
@@ -90,8 +90,8 @@ npm install
 npm run dev
 ```
 
-Run `npm run check` before sharing. The site is static apart from client-side
-audience and recovery selectors: it needs no database, API, cloud account, or
+Run `npm run check` before sharing. The site uses only standard navigation and
+native expandable sections: it needs no database, API, cloud account, or
 production connection.
 
 ## Publication state

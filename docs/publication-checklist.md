@@ -25,9 +25,9 @@
 - [x] Python unit tests pass (`9 / 9`).
 - [x] Public safety scan passes the complete working tree and Git history.
 - [x] Site lint and production build pass.
-- [x] Both workbook sheets were rendered and visually reviewed.
-- [x] One-page and 10-page PDFs were rendered and visually reviewed.
-- [x] Eight-slide presentation passed overflow testing and slide-by-slide review.
+- [x] All seven synthetic-workbook sheets were rendered and visually reviewed.
+- [x] The one-page overview and seven-section engineering PDF were rendered and visually reviewed.
+- [x] Seven-slide presentation passed overflow testing and slide-by-slide review.
 - [x] Links and downloadable assets work in the locally rendered review build.
 
 ## Publication

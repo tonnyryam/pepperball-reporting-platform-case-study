@@ -35,10 +35,11 @@ rollback. One lesson I am keeping: byte-level differences are not always
 business-level differences, so idempotency needs an explicit governed material
 identity, not only a file hash.
 
-The linked case study and demo use synthetic data and generalized architecture.
+The linked case study uses synthetic data and generalized architecture. Its
+optional sections contain the evidence workbook, engineering reference, impact
+assumptions, and public implementation record without lengthening the main story.
 
-[Read the case study](https://thomas-ryan-reporting-reliability.tonnyryam.chatgpt.site)
-or [inspect the public repository](https://github.com/tonnyryam/pepperball-reporting-platform-case-study).
+[Explore the case study](https://thomas-ryan-reporting-reliability.tonnyryam.chatgpt.site).
 
 ## Resume bullet
 

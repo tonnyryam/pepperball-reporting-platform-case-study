@@ -1,6 +1,6 @@
 # Interview kit
 
-Tell one cumulative story: governed reporting evidence comes first; the chatbot retrieves it, the report doctor diagnoses its health, and the oracle validates it against contracts. Use the estimated 90% retrieval improvement as the direct intelligence-interface value. Present the 30-hour/$52K labor model and 227.5K-widget/~$205K downtime scenario only as documented planning opportunities.
+Tell one cumulative story, then choose one proof path. Start with how supervisors and managers use prepared outputs. Explain that governed reporting evidence comes first; the chatbot retrieves it, the report doctor diagnoses its health, and the oracle validates it against contracts. Use the workbook for traceability questions, the engineering PDF for architecture/recovery questions, and the deck only for a guided presentation. Do not repeat all three.
 
 **Thomas Ryan - Forward Deployed Engineer Intern, PepperBall - May 2026-August
 2026**

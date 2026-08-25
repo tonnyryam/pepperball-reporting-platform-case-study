@@ -1,6 +1,6 @@
 # Two-minute demo script
 
-Follow the seven-section site order: users; reporting outputs; operational workflow; chatbot/report doctor/governed oracle; value and assumptions; technical foundation; evidence. Demonstrate one source-grounded retrieval with citation/fallback, one read-only doctor diagnostic, and one oracle refusal before opening the workbook or repository. Do not repeat artifact links or imply autonomous decisions.
+Use the visible page for the one-minute operational story: outputs, workflow, intelligence interfaces, and technical foundation. Then open only the optional path that matches the audience: report inspection, engineering depth, impact assumptions, or implementation evidence. Do not tour every dropdown or repeat artifact links.
 
 ## Opening - 15 seconds
 
@@ -14,7 +14,9 @@ expected-output obligation. A deterministic report is published only when its
 governed material identity is new, and every accepted write is verified by exact
 readback.
 
-## Failure scenarios - 60 seconds
+## Optional technical path - 60 seconds
+
+If the audience asks for implementation depth:
 
 1. Start with a missing source. The obligation stays pending with zero writes.
 2. Add late qualified evidence. The same canonical output advances once.
@@ -22,7 +24,9 @@ readback.
    remains the same, so the cycle is a no-op.
 4. Simulate an accepted write whose response is lost. The engine retains the
    candidate and performs GET-only settlement with no second PUT.
-5. Attempt a second writer lease. It is refused until the first owner releases.
+5. Show the one-writer release and exact rollback boundary.
+
+If the audience asks for report evidence instead, open the workbook and trace one source-lineage row plus one exception case. Do not also narrate the full reliability sequence.
 
 ## Close - 20 seconds
 

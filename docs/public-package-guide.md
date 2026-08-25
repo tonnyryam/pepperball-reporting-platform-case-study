@@ -4,19 +4,19 @@
 
 | Audience | Start here | Then inspect |
 | --- | --- | --- |
-| Recruiter | Website overview or one-page PDF | Portfolio card and presentation |
-| Hiring manager | Long-form PDF | Workday chronology and verified outcomes |
+| Recruiter | Website overview | Print/offline one-page PDF if needed |
+| Hiring manager | Website output and impact sections | Technical reference only for implementation detail |
 | Engineering leader | End-to-end system | Security/governance and technical decisions |
 | Software/data engineer | Architecture and capability matrix | Reliability state machine, validation methodology, synthetic code/tests |
 | Operations or product | Output-use and workflow sections | Synthetic workbook and report-health concepts |
 
 ## Public-facing artifacts
 
-- Concise operations-first website with one workflow visual, one architecture visual, and contextual artifact previews.
-- One-page executive PDF.
-- Long-form end-to-end technical case study PDF.
-- Presentation deck with speaker notes and source traceability.
-- Synthetic workbook with output, reliability, and bounded-intelligence evidence plus rendered previews.
+- Canonical operations-first website with four collapsed depth paths.
+- One-page printable website summary.
+- Seven-section engineering reference PDF.
+- Seven-slide guided presentation with speaker notes, retained for interviews and repository sharing rather than linked from the public page.
+- Seven-sheet synthetic evidence lab covering operational use, recovery, intelligence boundaries, source lineage, exception review, and formula-driven impact assumptions.
 - Synthetic reliability engine, scenarios, and nine regression tests.
 - Sanitized 29-entry workday chronology.
 - Technical documentation for architecture, capabilities, state machines,
@@ -28,7 +28,7 @@
 ## What the site needs
 
 The site is a statically built Next.js presentation. Its only runtime behavior
-is standard navigation and expandable impact methodology. It requires
+is standard navigation and four native expandable evidence sections. It requires
 no production API, database, document portal, cloud account, authentication, or
 customer data. A static host is sufficient after final owner approval.
 

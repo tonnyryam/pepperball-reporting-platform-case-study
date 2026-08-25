@@ -12,5 +12,6 @@ self-healing, GET-only accepted-write recovery, same-item publication, and exact
 rollback. Built production defects into synthetic regression fixtures and
 verified equivalent replay as a zero-write no-op.
 
-**Suggested links:** Website | Long-form case study | Presentation | Interactive
-demo | Repository | Synthetic workbook
+**Suggested links:** Website as the canonical project page | Repository as the
+technical source. The workbook and engineering reference are reached contextually
+from the website; the presentation is reserved for guided interviews.
