@@ -12,11 +12,9 @@ The journey is: operational input → automated ingestion → reconciliation and
 
 ## Defensible impact
 
-Measured: replay-processing rows reduced 94.6% (113,137 to 6,075); local PostgreSQL fixture footprint reduced 86.6% (198,719,167 to 26,580,671 bytes).
+Estimated or modeled: 20 supervisor plus 10 manager hours/week and about $52K annual labor value under documented assumptions. This is a planning opportunity, not booked savings.
 
-Estimated or modeled: about 90% retrieval-time reduction; about 87% storage-cost reduction assuming linear scaling; 20 supervisor plus 10 manager hours/week and about $52K annual labor value; up to 227,500 widgets and about $205K annual contribution-margin opportunity under documented assumptions.
-
-These are measured technical results and planning models—not booked savings, realized margin, autonomous decisions, or blanket accuracy claims.
+This is a planning model—not booked savings, autonomous decisions, or a guaranteed outcome.
 
 ## Technical evidence
 

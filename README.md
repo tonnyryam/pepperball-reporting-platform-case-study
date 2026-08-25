@@ -14,12 +14,11 @@ synthetic data and generalized architecture. It excludes production source and
 history, customer or employee data, credentials, private identifiers, live
 templates, system coordinates, and operational exports.
 
-## Choose your depth
+## Reading path
 
-- **30 seconds:** open the website and read the hero, system map, and outcomes.
-- **5 minutes:** use the interactive recovery lab and inspect the synthetic
-  workbook.
-- **15 minutes:** read the long-form PDF or presentation in `public/`.
+- **One minute:** use the website for outputs, workflow, value, and technical foundation.
+- **Presentation:** use the short deck for a live conversation.
+- **Technical review:** open the long-form case study and synthetic workbook.
 - **Technical review:** start with [end-to-end system](docs/end-to-end-system.md),
   [capability matrix](docs/system-capability-matrix.md), and
   [validation methodology](docs/validation-methodology.md).

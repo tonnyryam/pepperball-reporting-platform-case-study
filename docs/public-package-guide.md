@@ -12,7 +12,7 @@
 
 ## Public-facing artifacts
 
-- Audience-layered static website with full system map and interactive recovery lab.
+- Concise operations-first website with one workflow visual, one architecture visual, and contextual artifact previews.
 - One-page executive PDF.
 - Long-form end-to-end technical case study PDF.
 - Presentation deck with speaker notes and source traceability.
