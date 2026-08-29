@@ -1,21 +1,20 @@
 # Building an end-to-end reporting platform that is safe to recover
 
-## Reporting Assistant
+## Delivered platform and additional initiatives
 
-- **Reporting Assistant:** finds cited information, diagnoses report problems, and validates evidence through bounded internal retrieval, report-doctor, and governed-oracle subsystems. Estimated retrieval improvement is about 90% for the documented 20–30 minute to 1–2 minute scenario.
-- **Report doctor:** read-only expected-output, exception, health, and settlement diagnostics. It observes but cannot repair or publish.
-- **Governed oracle:** contract-, lineage-, and state-bound interpretation and validation. Missing or ambiguous evidence fails closed.
+- **Core platform delivered:** Shift Drafts and daily, weekly, and downtime reporting with controlled ingestion, reconciliation, lineage, validation, publication, readback, recovery, and rollback.
+- **Additional initiative delivered:** QR/Form machine-event intake, notifications, and a SharePoint dashboard that improve operational visibility without making maintenance decisions.
+- **Delivered Reporting Assistant extension:** a functional read-only assistant answers bounded, source-grounded queries with structured responses, validated citations, report diagnostics, evidence validation, and deterministic refusal. It has no write authority; broader model-backed reasoning, document knowledge, recurring artifacts, and production advisory remain future work.
 
-These interfaces sit over the reporting system; they do not replace the input → preparation → validated output → human review path.
+The assistant sits over the governed reporting system; it does not replace the input → preparation → validated output → human review path.
 
 ## Impact methodology
 
-- Reviewed production-count schema conformance: across approximately six months, about one in four legacy reports did not conform; every reviewed system-generated output did. This is an approximately 75% to 100% change, or 25 percentage points, within the reviewed sample—not a blanket accuracy claim.
-- Labor planning model: 20 supervisor + 10 manager hours/week, about $52K annual labor value.
-- Retrieval estimate: 20–30 minute representative search reduced to 1–2 minutes, about 90%.
-- Downtime upper-bound model: 5-minute response improvement × 1,000 production units/hour/machine × 52.5 events/week × 52 weeks = up to 227,500 production units; at $0.90/unit, approximately $205K contribution-margin opportunity.
+- Core reporting model: 20 supervisor + 10 manager hours/week = 30 hours/week or 1,560 hours/year, representing about $52K in modeled annual labor-capacity value.
+- Reporting Assistant estimate: a representative 20–30 minute search compared with a 1–2 minute cited response from the functional assistant, estimated at about 90% faster retrieval. This is not a controlled production benchmark.
+- Machine-visibility upper bound: 5-minute response improvement × 1,000 production units/hour/machine × 52.5 events/week × 52 weeks = up to 227,500 production units; at $0.90/unit, approximately $205K contribution-margin opportunity.
 
-These are planning scenarios, not booked savings, realized production, guaranteed margin, or autonomous outcomes.
+The labor and machine-visibility value pools are separate and are not added together. These are planning scenarios, not booked savings, realized production, guaranteed margin, or autonomous outcomes.
 
 **Thomas Ryan - Forward Deployed Engineer Intern, PepperBall**
 **May 2026-August 2026**

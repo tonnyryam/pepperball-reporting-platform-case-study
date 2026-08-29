@@ -1,5 +1,6 @@
 # What I would build next
 
+- Extend the functional read-only Reporting Assistant only after owner approval: harden evaluation and monitoring, add governed document knowledge, and consider broader model-backed reasoning or advisory capabilities without granting write authority.
 - Add an owner-approved, privacy-safe operational scorecard for repair latency,
   expected-output completeness, and terminal-hold age.
 - Expand failure injection around delayed read-after-write consistency and lease

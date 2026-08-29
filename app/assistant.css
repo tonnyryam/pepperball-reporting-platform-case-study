@@ -4,6 +4,44 @@
   background: #fafaf9;
 }
 
+.initiative-grid {
+  display: grid;
+  grid-template-columns: .72fr 1.28fr;
+  gap: 18px;
+}
+
+.initiative-card {
+  padding: 32px;
+  border: 1px solid var(--line);
+  background: var(--night);
+  color: #fff;
+}
+
+.initiative-card > span,
+.initiative-card > small {
+  color: #ff665c;
+  font: 700 10px var(--font-geist-mono);
+  letter-spacing: .08em;
+}
+
+.initiative-card h3 {
+  margin: 52px 0 14px;
+  font-size: clamp(24px, 3vw, 34px);
+  letter-spacing: -.03em;
+}
+
+.initiative-card p {
+  color: #c6c6c6;
+  line-height: 1.65;
+}
+
+.initiative-card > small {
+  display: block;
+  margin-top: 28px;
+}
+
+@media(max-width:900px){.initiative-grid{grid-template-columns:1fr}}
+
 .assistant-card span {
   color: var(--red);
   font: 700 10px var(--font-geist-mono);

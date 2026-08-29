@@ -2,18 +2,11 @@
 
 ## Repository description
 
-Sanitized end-to-end case study and synthetic demo of a governed manufacturing
-reporting platform: document intake, medallion facts, deterministic workbooks,
-bounded self-healing, exact readback, operational interfaces, and one-writer
-rollback-safe releases.
+Sanitized case study and synthetic evidence for a governed manufacturing reporting platform: operational discovery, deterministic workbooks, reconciliation, source lineage, controlled publishing, exact readback, bounded recovery, and rollback-safe releases.
 
 ## Recruiter summary
 
-Built and operationalized a Python/cloud/document-portal manufacturing reporting
-platform with medallion data processing, deterministic spreadsheet products,
-durable reconciliation, observability, and zero-downtime one-writer release
-controls. Owned production diagnosis, regression strategy, rollback decisions,
-and evidence-driven handoff.
+Owned discovery through delivery of a Python/PostgreSQL/Azure manufacturing reporting platform integrated with SharePoint, Microsoft Graph, and Excel. Automated Shift Draft and recurring management reports, added machine-event visibility as a delivered extension, and engineered deterministic publication, exact readback, bounded recovery, and rollback-safe releases.
 
 ## Contact line
 
@@ -22,28 +15,10 @@ Thomas Ryan - Forward Deployed Engineer Intern, May 2026-August 2026 -
 [LinkedIn](https://www.linkedin.com/in/thomas-f-ryan/) -
 [Email](mailto:tommyryan.sf415@gmail.com)
 
-## LinkedIn draft
+## Publishing copy
 
-Recently I worked on the reliability layer behind a document-driven
-manufacturing reporting system. The interesting challenge was not generating a
-spreadsheet once; it was proving that late inputs, changing documents, lost
-responses, and retries could not silently create stale or duplicate outputs.
+Use the three-post series in the handoff sharing center. It separates operational discovery, delivered reporting value, and reliability with functional extensions/future expansion rather than repeating the website.
 
-I built around deterministic rendering, durable source-to-output accounting,
-bounded self-healing, exact readback, and immutable one-writer releases with
-rollback. One lesson I am keeping: byte-level differences are not always
-business-level differences, so idempotency needs an explicit governed material
-identity, not only a file hash.
+## Resume recommendation
 
-The linked case study uses synthetic data and generalized architecture. Its
-optional sections contain the evidence workbook, engineering reference, impact
-assumptions, and public implementation record without lengthening the main story.
-
-[Explore the case study](https://thomas-ryan-reporting-reliability.tonnyryam.chatgpt.site).
-
-## Resume bullet
-
-- Hardened a Python/cloud manufacturing reporting platform with deterministic
-  spreadsheet products, durable expected-output accounting, GET-only
-  accepted-write recovery, bounded self-healing, and serialized one-writer
-  releases with exact rollback.
+Use the copy-ready recommendation in the handoff sharing center. The public repository does not directly edit or redefine the résumé.

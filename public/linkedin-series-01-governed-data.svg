@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="627" viewBox="0 0 1200 627" role="img" aria-labelledby="title desc">
+  <title id="title">Turning Operational Knowledge into a Reporting System</title>
+  <desc id="desc">Email, network folders, Excel reports, and whiteboard information pass through normalization, data contracts, validation, and lineage to produce source-linked Shift Drafts and daily, weekly, and downtime reports.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#171516" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#ef3125"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="627" fill="#f5f5f4"/>
+  <rect x="0" y="0" width="1200" height="10" fill="#ef3125"/>
+
+  <text x="64" y="58" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="1.35" fill="#ef3125">PEPPERBALL FORWARD DEPLOYED ENGINEERING INTERNSHIP · 1/3</text>
+  <text x="64" y="116" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" fill="#201d1e">From operational knowledge to reporting contracts.</text>
+  <text x="64" y="181" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#5f5b5c">Operational knowledge translated into explicit, testable reporting rules.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="64" y="224" width="255" height="222" rx="18" fill="#ffffff"/>
+    <rect x="373" y="224" width="454" height="222" rx="18" fill="#201d1e"/>
+    <rect x="881" y="224" width="255" height="222" rx="18" fill="#ffffff"/>
+  </g>
+
+  <text x="88" y="261" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1.4" fill="#777273">FRAGMENTED INPUTS</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#201d1e">
+    <circle cx="96" cy="301" r="5" fill="#ef3125"/><text x="112" y="307">Excel reports</text>
+    <circle cx="96" cy="340" r="5" fill="#ef3125"/><text x="112" y="346">Email</text>
+    <circle cx="96" cy="379" r="5" fill="#ef3125"/><text x="112" y="385">Whiteboards</text>
+    <circle cx="96" cy="418" r="5" fill="#ef3125"/><text x="112" y="424">Network folders</text>
+  </g>
+
+  <line x1="327" y1="335" x2="359" y2="335" stroke="#ef3125" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="835" y1="335" x2="867" y2="335" stroke="#ef3125" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <text x="401" y="261" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1.4" fill="#ff756c">GOVERNED REPORTING CORE</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="401" y="286" width="181" height="53" rx="10" fill="#353132" stroke="#5a5556"/>
+    <text x="421" y="319" font-size="18" font-weight="700" fill="#ffffff">Normalize</text>
+    <rect x="598" y="286" width="201" height="53" rx="10" fill="#353132" stroke="#5a5556"/>
+    <text x="618" y="319" font-size="18" font-weight="700" fill="#ffffff">Define contracts</text>
+    <rect x="401" y="355" width="181" height="53" rx="10" fill="#353132" stroke="#5a5556"/>
+    <text x="421" y="388" font-size="18" font-weight="700" fill="#ffffff">Validate</text>
+    <rect x="598" y="355" width="201" height="53" rx="10" fill="#353132" stroke="#5a5556"/>
+    <text x="618" y="388" font-size="18" font-weight="700" fill="#ffffff">Preserve lineage</text>
+  </g>
+
+  <text x="905" y="261" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="1.4" fill="#777273">PREPARED OUTPUTS</text>
+  <text x="905" y="309" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800" fill="#201d1e">Shift · daily</text>
+  <text x="905" y="341" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800" fill="#201d1e">weekly · downtime</text>
+  <line x1="905" y1="367" x2="1110" y2="367" stroke="#dedbd9" stroke-width="2"/>
+  <text x="905" y="397" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#5f5b5c">Prepared for review</text>
+  <text x="905" y="422" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#5f5b5c">Source-linked evidence</text>
+
+  <rect x="64" y="480" width="1072" height="102" rx="18" fill="#ffffff" stroke="#dedbd9"/>
+  <text x="88" y="512" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="1.3" fill="#777273">FORWARD DEPLOYED ENGINEERING PRINCIPLE</text>
+  <text x="88" y="554" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800" fill="#201d1e">Learn the workflow</text>
+  <line x1="326" y1="544" x2="390" y2="544" stroke="#ef3125" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="425" y="554" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800" fill="#201d1e">Define contracts</text>
+  <line x1="620" y1="544" x2="684" y2="544" stroke="#ef3125" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="720" y="554" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="800" fill="#ef3125">Preserve human review</text>
+</svg>

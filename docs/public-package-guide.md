@@ -14,9 +14,9 @@
 
 - Canonical operations-first website with four collapsed depth paths.
 - One-page printable website summary.
-- Seven-section engineering reference PDF.
-- Seven-slide guided presentation with speaker notes, retained for interviews and repository sharing rather than linked from the public page.
-- Seven-sheet synthetic evidence lab covering operational use, recovery, intelligence boundaries, source lineage, exception review, and formula-driven impact assumptions.
+- Six-section engineering reference PDF.
+- Eight-slide guided presentation with speaker notes, retained for interviews and repository sharing rather than linked from the public page.
+- Seven-sheet synthetic evidence lab covering operational use, recovery, functional assistant boundaries, source lineage, exception review, and formula-driven impact assumptions.
 - Synthetic reliability engine, scenarios, and nine regression tests.
 - Sanitized 29-entry workday chronology.
 - Technical documentation for architecture, capabilities, state machines,

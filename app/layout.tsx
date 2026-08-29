@@ -9,17 +9,17 @@ const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin']
 
 export const metadata: Metadata = {
   title: 'PepperBall Reporting Platform | Thomas Ryan',
-  description: 'How supervisors and managers use dependable shift, daily, and weekly manufacturing reports - and the architecture and reliability engineering behind them.',
+  description: 'How supervisors and managers use dependable manufacturing reports, delivered machine visibility, and a functional read-only Reporting Assistant.',
   openGraph: {
     title: 'PepperBall Reporting Platform | Thomas Ryan',
-    description: 'From operational inputs to prepared decision-support reports, with traceable evidence and rollback-safe delivery.',
+    description: 'Delivered manufacturing reporting, machine visibility, and a functional read-only Reporting Assistant with governed future expansion.',
     type: 'website',
     images: [{ url: '/social-preview.png', width: 1743, height: 897, alt: 'Reporting Reliability by Thomas Ryan' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'PepperBall Reporting Platform | Thomas Ryan',
-    description: 'From operational inputs to prepared decision-support reports, with traceable evidence and rollback-safe delivery.',
+    description: 'Delivered manufacturing reporting, machine visibility, and a functional read-only Reporting Assistant with governed future expansion.',
     images: ['/social-preview.png'],
   },
 };

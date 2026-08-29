@@ -78,7 +78,7 @@ preserved the canonical output rather than creating a working-copy destination.
 
 ### 2026-08-04 - Integrated system checkpoint
 
-Reconciled reporting, governed API, assistant-facing data, and workbook evidence
+Reconciled reporting, governed API, assistant-facing evidence paths, and workbook evidence
 as one operational system, exposing remaining cross-surface inconsistencies.
 
 ### 2026-08-05 - Coverage-aware hotfix and controlled releases
