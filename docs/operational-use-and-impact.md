@@ -18,4 +18,6 @@ This is a planning model—not booked savings, autonomous decisions, or a guaran
 
 ## Technical evidence
 
-SharePoint and Forms inputs, five Power Automate flows, and machine events feed automated Python ingestion and reconciliation. PostgreSQL preserves eight source-linked serving tables. Workbooks and the API/SPFx dashboard expose validated output with lineage. Missing values remain distinct from zeros. Publication is fail-closed, with readback, bounded repair, one-writer releases, and rollback.
+SharePoint and Forms inputs, six Power Automate flows, and machine events feed automated Python ingestion and reconciliation. PostgreSQL preserves eight source-linked serving tables. Workbooks and the API/SPFx dashboard expose validated output with lineage. Missing values remain distinct from zeros. Publication is fail-closed, with readback, bounded repair, one-writer releases, and rollback.
+
+The sixth flow provides report-specific distribution for newly published Daily Production, Weekly Production, and Weekly Downtime and Maintenance workbooks. It sends configured groups a snapshot when size permits and a link to the continuously updated SharePoint version, records delivery state, and suppresses same-file duplicates. It is implemented, enabled, and end-to-end tested in a controlled test; the next real publication from all three families has not yet been observed.
