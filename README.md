@@ -35,7 +35,7 @@ flowchart LR
   D --> E[Family schedulers and deterministic workbooks]
   E --> F[Conditional same-item publication]
   F --> G[Exact GET readback]
-  G --> H[Operations API, portal, and report doctor]
+  G --> H[Operations API and report-health diagnostics]
   G --> I[Bounded repair and backfill]
   I --> D
   J[Immutable one-writer releases] -. governs .-> E
@@ -46,6 +46,12 @@ flowchart LR
 The public representation stays at the capability and control-flow level. It
 shows how the whole platform works without publishing tenant details, resource
 identities, schema internals, ACLs, exact schedules, or production code.
+
+## Delivery status
+
+- **Core platform delivered:** Shift Drafts and daily, weekly, and downtime reporting with governed ingestion, reconciliation, lineage, validation, publication, readback, recovery, and rollback.
+- **Additional initiative delivered:** QR/Form machine-event intake, notifications, and a SharePoint dashboard for operational visibility.
+- **Functional Reporting Assistant extension:** answers bounded, source-grounded queries with structured responses, validated citations, read-only diagnostics, evidence validation, and deterministic refusal. It has no write authority; broader model-backed reasoning, document knowledge, recurring artifacts, and production advisory remain future work.
 
 ## Verified engineering outcomes
 

@@ -14,9 +14,10 @@
 | Accepted-write settlement | Resolve lost responses through GET without a second PUT | Deployed and naturally observed | Synthetic state model only |
 | Repair and backfill | Fairly converge eligible technical gaps | Deployed with bounded, durable state | No protected-item details |
 | Terminal/protected holds | Prevent repair from rewriting security- or ownership-held evidence | Deployed and regression-tested | Hold identities omitted |
-| Report health doctor | Explain output status without write authority | Deployed as a read-only surface | No production screenshots |
+| Report health diagnostics | Explain output status without write authority | Deployed as a read-only administrative surface | No production screenshots |
 | Governed API and portal | Provide report and diagnostic access | Integrated read/interaction plane | Routes and topology omitted |
-| Assistant-facing summaries | Present client-independent status and evidence | Integrated with governed data boundaries | No prompts, accounts, or private content |
+| Reporting Assistant | Answer bounded queries with source-grounded retrieval, validated citations, read-only diagnosis, evidence validation, and refusal behavior | Functional read-only extension; broader model-backed reasoning, document knowledge, recurring artifacts, and production advisory remain future work | No prompts, accounts, or private content |
+| Machine-event visibility | Capture QR/Form machine events, notify configured recipients, and expose dashboard status | Delivered additional initiative | No tenant, recipient, or operational-event detail |
 | Document-knowledge gates | Control future knowledge features by access, privacy, and retention | Prepared/gated; not claimed generally active | Architecture details omitted |
 | Privacy-safe interaction telemetry | Measure citation interaction without exporting private content | Implemented and tested; deployment status stated separately | Event schema omitted |
 | Immutable release pipeline | Validate, serialize, activate, observe, and restore workers | Deployed and repeatedly exercised | No cloud resource identities |

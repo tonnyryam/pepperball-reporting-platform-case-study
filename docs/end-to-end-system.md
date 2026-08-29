@@ -89,9 +89,9 @@ does not force publication, invent facts, or rewrite terminal evidence.
 
 ## 8. Read-only operational experiences
 
-A governed API, portal experience, report-health doctor, diagnostics, and
-assistant-facing summaries expose report status without creating a second
-writer. Stored summaries are client-independent and health views distinguish
+A governed API, portal experience, report-health doctor, diagnostics, and the
+functional read-only assistant expose report status and answer bounded queries
+without creating a second writer. Stored summaries are client-independent and health views distinguish
 fresh, pending, repairable, protected, and terminal state.
 
 Prepared document-knowledge and interaction-telemetry capabilities remain

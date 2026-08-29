@@ -1,6 +1,6 @@
 # Interview kit
 
-Tell one cumulative story, then choose one proof path. Start with how supervisors and managers use prepared outputs. Present one read-only Reporting Assistant that finds cited information, diagnoses report problems, and validates evidence. For technical questions, explain its bounded chatbot, report-doctor, and governed-oracle subsystems. Use the workbook for traceability questions, the engineering PDF for architecture/recovery questions, and the deck only for a guided presentation. Do not repeat all three.
+Tell one cumulative story, then choose one proof path. Start with the delivered reporting core and how supervisors and managers use prepared outputs. Present machine-event intake, notifications, and the SharePoint dashboard as a delivered extension. Present the Reporting Assistant as a functional read-only extension that answers bounded, source-grounded queries with citations, diagnostics, evidence validation, and deterministic refusal; then separate broader model-backed reasoning, document knowledge, recurring artifacts, and production advisory as future work. Use the workbook for traceability questions, the engineering PDF for architecture/recovery questions, and the deck only for a guided presentation. Do not repeat all three.
 
 **Thomas Ryan - Forward Deployed Engineer Intern, PepperBall - May 2026-August
 2026**
