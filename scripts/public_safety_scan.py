@@ -3,11 +3,13 @@
 from __future__ import annotations
 
 import argparse
+import os
 from pathlib import Path
 import re
 import subprocess
 import sys
 import zipfile
+from xml.etree import ElementTree
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -97,10 +99,17 @@ def _scan_text(label: str, text: str) -> list[str]:
     return findings
 
 
+def _public_files():
+    for directory, dirs, files in os.walk(ROOT):
+        dirs[:] = [d for d in dirs if d not in SKIP_DIRS]
+        for name in files:
+            yield Path(directory) / name
+
+
 def _scan_working_tree() -> tuple[int, list[str]]:
     scanned = 0
     findings: list[str] = []
-    for path in ROOT.rglob("*"):
+    for path in _public_files():
         if not path.is_file() or _excluded(path):
             continue
         relative = path.relative_to(ROOT)
@@ -113,20 +122,28 @@ def _scan_working_tree() -> tuple[int, list[str]]:
             text = path.read_text(encoding="utf-8", errors="replace")
             findings.extend(_scan_text(str(relative), text))
             scanned += 1
-        elif path.suffix.lower() == ".xlsx":
+        elif path.suffix.lower() in {".xlsx", ".pptx"}:
             with zipfile.ZipFile(path) as workbook:
                 text = "\n".join(
                     workbook.read(name).decode("utf-8", errors="replace")
                     for name in workbook.namelist()
                     if name.endswith(".xml")
                 )
-            findings.extend(_scan_text(str(relative), text))
+            if path.suffix.lower() == ".xlsx":
+                findings.extend(_scan_text(str(relative), text))
+            with zipfile.ZipFile(path) as package:
+                for name in package.namelist():
+                    if name.endswith(".xml"):
+                        plain = " ".join(ElementTree.fromstring(package.read(name)).itertext())
+                        findings.extend(_scan_text(f"{relative}:{name}", plain))
             scanned += 1
         elif path.suffix.lower() == ".pdf":
-            # Binary stream bytes are not reliable text and can create random
-            # pattern matches. PDF content is covered by its reviewed source,
-            # separate text extraction, and mandatory rendered-page inspection.
-            continue
+            from pypdf import PdfReader
+            reader = PdfReader(path)
+            text = "\n".join(page.extract_text() or "" for page in reader.pages)
+            findings.extend(_scan_text(str(relative), text))
+            findings.extend(_scan_text(f"{relative}:metadata", str(reader.metadata)))
+            scanned += 1
     return scanned, findings
 
 

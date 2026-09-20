@@ -10,9 +10,11 @@ The assistant sits over the governed reporting system; it does not replace the i
 
 ## Impact methodology
 
-- Core reporting model: 20 supervisor + 10 manager hours/week = 30 hours/week or 1,560 hours/year, representing about $52K in modeled annual labor-capacity value.
+- Core reporting model: 30 hours/week or 1,560 hours/year, representing about $52K in modeled annual labor-capacity value.
 - Reporting Assistant estimate: a representative 20–30 minute search compared with a 1–2 minute cited response from the functional assistant, estimated at about 90% faster retrieval. This is not a controlled production benchmark.
-- Machine-visibility upper bound: 5-minute response improvement × 1,000 production units/hour/machine × 52.5 events/week × 52 weeks = up to 227,500 production units; at $0.90/unit, approximately $205K contribution-margin opportunity.
+- Machine-visibility upper bound: up to 227,500 production units annually and approximately $205K annual contribution-margin opportunity.
+
+Underlying company-specific assumptions are omitted from this public case study.
 
 The labor and machine-visibility value pools are separate and are not added together. These are planning scenarios, not booked savings, realized production, guaranteed margin, or autonomous outcomes.
 
@@ -150,3 +152,6 @@ remain outside this package.
 5. Rollback is a product feature when scheduled publishers touch canonical work.
 6. Production discoveries are most valuable when converted into synthetic
    regression fixtures.
+
+
+Personal portfolio case study by Thomas Ryan. Not an official PepperBall publication.

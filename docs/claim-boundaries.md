@@ -23,3 +23,6 @@
 - Do not translate coverage, similarity, or classification metrics into blanket
   accuracy.
 - Do not use the reviewed production-count schema-conformance result in public materials.
+
+
+Personal portfolio case study by Thomas Ryan. Not an official PepperBall publication.

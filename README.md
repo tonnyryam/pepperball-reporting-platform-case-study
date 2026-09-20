@@ -1,5 +1,7 @@
 # PepperBall reporting platform case study
 
+Personal portfolio case study by Thomas Ryan. Not an official PepperBall publication.
+
 A sanitized, end-to-end portfolio case study by Thomas Ryan, Forward Deployed
 Engineer Intern at PepperBall from May 2026 through August 2026.
 

@@ -12,7 +12,7 @@ The journey is: operational input → automated ingestion → reconciliation and
 
 ## Defensible impact
 
-Estimated or modeled: 20 supervisor plus 10 manager hours/week, or 1,560 hours/year, and about $52K annual labor-capacity value under documented assumptions. This is a planning opportunity, not booked savings.
+Estimated or modeled: 30 hours/week, or 1,560 hours/year, and about $52K annual labor-capacity value. This is a planning opportunity, not booked savings. Underlying company-specific assumptions are omitted from this public case study.
 
 This is a planning model—not booked savings, autonomous decisions, or a guaranteed outcome.
 
@@ -25,3 +25,6 @@ As additional initiatives, QR-linked Forms, machine-event flows, notifications, 
 The sixth flow provides report-specific distribution for newly published Daily Production, Weekly Production, and Weekly Downtime and Maintenance workbooks. It sends configured groups a snapshot when size permits and a link to the continuously updated SharePoint version, records delivery state, and suppresses same-file duplicates. It is implemented, enabled, and end-to-end tested in a controlled test; the next real publication from all three families has not yet been observed.
 
 The labor-capacity and machine-visibility models are separate value pools and must not be added together.
+
+
+Personal portfolio case study by Thomas Ryan. Not an official PepperBall publication.

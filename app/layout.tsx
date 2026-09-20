@@ -9,17 +9,17 @@ const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin']
 
 export const metadata: Metadata = {
   title: 'PepperBall Reporting Platform | Thomas Ryan',
-  description: 'How supervisors and managers use dependable manufacturing reports, delivered machine visibility, and a functional read-only Reporting Assistant.',
+  description: 'Personal portfolio case study by Thomas Ryan. Not an official PepperBall publication.',
   openGraph: {
     title: 'PepperBall Reporting Platform | Thomas Ryan',
-    description: 'Delivered manufacturing reporting, machine visibility, and a functional read-only Reporting Assistant with governed future expansion.',
+    description: 'Personal portfolio case study by Thomas Ryan. Not an official PepperBall publication.',
     type: 'website',
     images: [{ url: '/social-preview.png', width: 1743, height: 897, alt: 'Reporting Reliability by Thomas Ryan' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'PepperBall Reporting Platform | Thomas Ryan',
-    description: 'Delivered manufacturing reporting, machine visibility, and a functional read-only Reporting Assistant with governed future expansion.',
+    description: 'Personal portfolio case study by Thomas Ryan. Not an official PepperBall publication.',
     images: ['/social-preview.png'],
   },
 };
